@@ -1,3 +1,5 @@
+_UDEMY STUDENTS: This repository has been updated since I moved my courses to [Ardan Labs](https://www.ardanlabs.com/learning/rust/). Udemy students should use the `udemy` branch of this repository by either [clicking on this link to view the `udemy` branch on GitHub](https://github.com/CleanCut/ultimate_rust_crash_course/tree/udemy) or checking out the `udemy` branch in your local clone with something like `git switch udemy`_
+
 # Ultimate Rust Crash Course
 
 This is the companion repository for the [Ultimate Rust Crash Course] published online, presented
