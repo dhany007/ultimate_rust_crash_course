@@ -28,9 +28,9 @@ already have an old version of Rust installed, then run `rustup update` to insta
 
 ```shell
 $ rustc --version
-rustc 1.54.0 (a178d0322 2021-07-26)
+rustc 1.89.0 (29483883e 2025-08-04)
 $ cargo --version
-cargo 1.54.0 (5ae8d74b3 2021-06-22)
+cargo 1.89.0 (c24e10642 2025-06-23)
 ```
 
 - Clone or download this repository to your computer.
@@ -90,14 +90,10 @@ For your convenience, here is a list of all the exercises, with links to view th
 - [Exercise E - Control Flow](https://github.com/CleanCut/ultimate_rust_crash_course/tree/master/exercise/e_control_flow)
 - [Exercise F - Strings](https://github.com/CleanCut/ultimate_rust_crash_course/tree/master/exercise/f_strings)
 - [Exercise G - Ownership & References](https://github.com/CleanCut/ultimate_rust_crash_course/tree/master/exercise/g_ownership_references)
-- [Exercise ? - Structs & Traits](https://github.com/CleanCut/ultimate_rust_crash_course/tree/master/exercise/)
-- [Exercise ? - Collections & Enums](https://github.com/CleanCut/ultimate_rust_crash_course/tree/master/exercise/)
-- [Exercise Z - Image Manipulation](https://github.com/CleanCut/ultimate_rust_crash_course/tree/master/exercise/z_final_project)
-
-# Projects
-
-- TBD
-
+- [Exercise H - Structs](https://github.com/CleanCut/ultimate_rust_crash_course/tree/main/exercise/h_structs)
+- [Exercise I - Traits](https://github.com/CleanCut/ultimate_rust_crash_course/tree/main/exercise/i_traits)
+- [Exercise J - Collections](https://github.com/CleanCut/ultimate_rust_crash_course/tree/main/exercise/j_collections)
+- [Exercise K - Enums](https://github.com/CleanCut/ultimate_rust_crash_course/tree/main/exercise/k_enums)
 
 [exercises]: https://github.com/CleanCut/ultimate_rust_crash_course#exercises
 [open an discussion]: https://github.com/CleanCut/ultimate_rust_crash_course/discussions/new
