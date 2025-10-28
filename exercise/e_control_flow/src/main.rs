@@ -15,10 +15,34 @@ fn main() {
 
     // (write your `loop` here)
 
+    loop {
+        if bunnies > 500 {
+            break;
+        }
+        count += 1;
+        bunnies *=2;
+    }
+
     println!(
         "Bunnies doubled {} times before there were more than 500",
         count
     );
+
+
+    // while loop
+    let mut new_count = 0;
+    let mut new_bunnies = 2;
+
+    while new_bunnies < 500 {
+        new_count += 1;
+        new_bunnies *=2;
+    }
+
+    println!(
+        "Bunnies doubled {} times before there were more than 500",
+        new_count
+    );
+
 
     // 2. Use a `for` loop to iterate through integers from 7 to 23 *inclusive* using a range
     // and add them all together (add each value to the `sum` variable).  Hint: You should get 255
@@ -26,8 +50,26 @@ fn main() {
     let mut sum = 0;
 
     // (write the `for` loop here)
+    for number in 7..24 {
+        sum += number;
+    }
 
     println!("The sum is {}", sum);
+
+
+    // loop
+    let mut new_sum = 0;
+    
+    let mut counter = 7;
+    loop {
+        if counter > 23 {
+            break;
+        }
+        new_sum += counter;
+        counter += 1;
+    }
+
+    println!("The sum is {}", new_sum);
 
     // 3. Use a `while` loop to add 12 numbers to the `fives` vector.
     //
@@ -44,7 +86,24 @@ fn main() {
 
     // (write the `while` loop here)
 
+    while fives.len() < 12 {
+        fives.push(number);
+        number += 5;
+    }
+
     println!("Here are the first 12 multiples of 5: {:?}", fives);
+
+    let mut new_fives: Vec<i32> = vec![];
+    let mut new_number = 5;
+
+    // for
+
+    for number in 1..13 {
+        new_fives.push(number*new_number);
+    }
+
+    println!("Here are the first 12 multiples of 5: {:?}", new_fives);
+
 
     // 4. Use `if`, `else if` and `else` inside the `for` loop below to do the following:
     //
@@ -58,6 +117,13 @@ fn main() {
     let numbers = vec![0, 1, 2, 3, 4, 5];
     for number in numbers {
         // (write your `if/else` expression here)
+        if number == 0 {
+            total += 7;
+        } else if number == 1 || number == 2 {
+            total += 30;
+        } else {
+            total -= 5;
+        }
     }
 
     println!("The total is {}", total);
